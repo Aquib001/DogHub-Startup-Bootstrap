@@ -28,7 +28,7 @@ p {
 }
 /* Class Selectors */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 9%;
 }
 .navbar {
   padding: 0 0 4.5rem;
@@ -52,6 +52,8 @@ p {
 .title-image {
   max-width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* ID Selectors */
@@ -63,6 +65,8 @@ p {
 /* FEATURES SECTION */
 #features {
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 .feature-box {
   text-align: center;
