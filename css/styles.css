@@ -16,7 +16,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   font-family: "Montserrat";
 }
 h1 {
@@ -36,7 +37,6 @@ h3 {
 p {
   color: #8f8f8f;
   font-size: 1rem;
-  font-family: "Montserrat";
   font-weight: 400;
 }
 /* Class Selectors */
@@ -153,7 +153,10 @@ p {
     font-size: 2.5rem;
     text-align: center;
   }
-
+  #title {
+    text-align: center;
+    color: #fff;
+  }
   .title-image {
     position: static;
     transform: rotate(0);
